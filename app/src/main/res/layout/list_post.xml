@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/purple_200"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="Title"
+        android:textAlignment="center"
+        android:background="@color/white"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="content"
+        android:background="@color/white"
+        android:textAlignment="center"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="user"
+        android:background="@color/white"
+        android:textAlignment="center"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/group"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="group"
+        android:background="@color/white"
+        android:textAlignment="center"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"/>
+
+</LinearLayout>
